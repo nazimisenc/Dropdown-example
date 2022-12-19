@@ -1,0 +1,60 @@
+ul 
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ background-color: rgb(231, 207, 177);
+
+}
+
+ul li a
+{
+  text-decoration: none;
+  color: rgb(71, 34, 34);
+}
+
+ul li
+{
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li:hover
+{
+  background-color: rgb(146, 146, 194);
+}
+
+#news-content
+{
+  display: none;
+  position: absolute;
+  z-index: -1;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+#news-content ul li
+{
+  display: block;
+  width: 58px;
+}
+
+.news-li:hover #news-content
+{
+  display: block;
+}
+
+#news4-content
+{
+  display: none;
+  position: absolute;
+  z-index: -1;
+  margin-top: -28.5px;
+  margin-left: 68px;
+  
+}
+
+.news4-li:hover #news4-content
+{
+  display: block;
+}
